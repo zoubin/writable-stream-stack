@@ -28,7 +28,9 @@ function Stack(streams) {
 
     this.length = 1;
 
-    streams.forEach(this.push.bind(this));
+    for (var i = streams.length - 1; i >= 0; --i) {
+        this.push(streams[i]);
+    }
 }
 
 Stack.prototype.push = function(stream) {

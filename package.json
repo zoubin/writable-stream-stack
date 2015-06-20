@@ -1,6 +1,6 @@
 {
   "name": "writable-stream-stack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "make a node stream pipeline, new transforms can be pushed to apply before the data reaches the dest stream",
   "main": "index.js",
   "scripts": {
